@@ -1,0 +1,25 @@
+
+main {
+    max-width: 90%;
+    margin: 3rem auto;
+}
+
+
+
+#profile_section {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+ 
+}
+
+#profile_name {
+    font-size: 1.7rem;
+    margin: auto 0;
+    text-align: center;
+}
+
+#profile_img {
+    width: 60%;
+}

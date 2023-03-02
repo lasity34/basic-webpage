@@ -1,0 +1,15 @@
+body {
+    max-width: 100%;
+}
+
+#main_container {
+    width: 50%;
+}
+
+#profile_section {
+    display: flex;
+}
+
+#profile_name {
+
+}

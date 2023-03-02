@@ -1,0 +1,23 @@
+main {
+  max-width: 90%;
+  margin: 3rem auto;
+
+}
+
+#profile_section {
+  width: 100%;
+}
+
+#profile_name {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#img_container {
+    margin: 0 auto;
+}
+
+#profile_img {
+  width: 80%;
+  margin: 0 auto;
+}

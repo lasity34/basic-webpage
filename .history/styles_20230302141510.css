@@ -1,0 +1,49 @@
+/* global */
+
+* {
+    font-family: 'Caveat', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+  max-width: 90%;
+  margin: 3rem auto;
+}
+
+section {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+/* profile */
+
+
+#profile_name {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#img_container {
+  text-align: center;
+}
+
+#profile_img {
+  width: 60%;
+}
+
+/* language */
+
+table {
+    margin: auto;
+}
+
+td, th {
+    
+    border: 1px solid black;
+    padding: 0.3em
+}
+
+/* historic places */
+
+.places_container img {
+    width: 50%;
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+  max-width: 90%;
+  margin: 3rem auto;
+}
+
+section {
+    margin-top: 4rem;
+}
+
+
+
+#profile_name {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#img_container {
+  text-align: center;
+}
+
+#profile_img {
+  width: 60%;
+}
+
+#city_section {
+    text-align: center;
+}
+

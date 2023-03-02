@@ -1,0 +1,14 @@
+
+
+#main_container {
+    max-width: 80px;
+    background-color: aqua
+}
+
+#profile_section {
+    display: flex;
+}
+
+#profile_name {
+
+}
