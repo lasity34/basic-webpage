@@ -1,15 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="simple-grid.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" type="text/css" href="simple-grid.css" />
 
+ 
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,7 +18,7 @@
   </head>
   <body>
     <main>
-      <section id="profile_section">
+      <section class="col-5" id="profile_section">
         <h1 id="profile_name">Bjorn Worrall</h1>
         <div id="img_container">
           <img
@@ -79,58 +79,39 @@
         <h1>Historic places in my city - Cape Town</h1>
         <div id="places_grid">
           <div class="places_container">
-            <div class="places_info">
+            <div class="places_info col-5">
               <h2>Church Square</h2>
-              <p> The name Spin Street comes from a silk–spinning factory
-                between Plein Street and Parliament Street.</p>
-              
-                <!-- <li>
-                  The name Spin Street comes from a silk–spinning factory
-                  between Plein Street and Parliament Street.
-                </li>
-                <li>
-                  A plaque on a traffic island on Spin Street commemorates the
-                  slave market once using the square.
-                </li>
-                <li>
-                  it houses a cultural and historical museum. In 1961, the
-                  square was declared a heritage site.
-                </li> -->
-             
+              <p>
+                The name Spin Street comes from a silk–spinning factory between
+                Plein Street and Parliament Street. it houses a cultural and
+                historical museum. In 1961, the square was declared a heritage
+                site.
+              </p>
             </div>
-            <img src="../images/church_square.jpg" />
+            <img src="../images/church_square.jpg" class="col-5" />
           </div>
           <div class="places_container">
             <img src="../images/city_hall.jpg" />
             <div id="places_info_hall">
               <h2>City Hall</h2>
-             
-                <p> On February 11, 1990, only hours after his release from
-                  prison, Nelson Mandela made his first public speech.
-                  Was built in 1905 as a large Edwardian building
-                </p>
-      
-           
+
+              <p>
+                On February 11, 1990, only hours after his release from prison,
+                Nelson Mandela made his first public speech. Was built in 1905
+                as a large Edwardian building
+              </p>
             </div>
           </div>
           <div class="places_container">
             <div class="places_info">
               <h2>District 6 Museum</h2>
-              <p> Serves as a memorial to the forced movement of 60,000
-                inhabitants of various races in District Six during Apartheid
-                in the 1970s.</p>
-              <!-- <ul>
-                <li>
-                  Serves as a memorial to the forced movement of 60,000
-                  inhabitants of various races in District Six during Apartheid
-                  in the 1970s.
-                </li>
-                <li>
-                  One former resident is jazz musician, Abdullah Ibrahim, better
-                  known by the name Dollar Brand.
-                </li>
-                <li>District Six museum was founded in 1994.</li>
-              </ul> -->
+              <p>
+                Serves as a memorial to the forced movement of 60,000
+                inhabitants of various races in District Six during Apartheid in
+                the 1970s. One former resident is jazz musician, Abdullah
+                Ibrahim, better known by the name Dollar Brand. District Six
+                museum was founded in 1994.
+              </p>
             </div>
             <img src="../images/district_6.jpg" />
           </div>

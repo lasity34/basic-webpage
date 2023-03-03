@@ -50,10 +50,7 @@ th {
 /* historic places */
 
 .places_container {
-  display: grid;
-  grid-template-columns: 40% 50%;
-  padding: 0.5em;
-  justify-content: space-around;
+
 }
 
 .places_info {

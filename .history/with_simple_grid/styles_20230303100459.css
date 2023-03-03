@@ -52,7 +52,7 @@ th {
 .places_container {
   display: grid;
   grid-template-columns: 40% 50%;
-  padding: 0.5em;
+  padding: 1em;
   justify-content: space-around;
 }
 
@@ -92,9 +92,9 @@ th {
   }
 }
 
-@media (min-width: 920px) {
+@media (min-width: 1000px) {
   main {
-    max-width: 95%;
+    max-width: 80%;
   }
 
   #profile_section {
@@ -113,17 +113,5 @@ th {
     grid-template-columns: 30% 50%;
   }
 
-  #places_grid {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-  }
- 
-  #places_info_hall {
-    order: -1;
-  }
-
-  .places_container {
-    grid-template-columns: 60% 35%;
-  }
  
 }

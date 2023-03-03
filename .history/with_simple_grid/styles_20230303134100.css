@@ -50,10 +50,7 @@ th {
 /* historic places */
 
 .places_container {
-  display: grid;
-  grid-template-columns: 40% 50%;
-  padding: 0.5em;
-  justify-content: space-around;
+
 }
 
 .places_info {
@@ -92,38 +89,19 @@ th {
   }
 }
 
-@media (min-width: 920px) {
+@media (min-width: 1000px) {
   main {
-    max-width: 95%;
+    max-width: 80%;
   }
 
-  #profile_section {
-    display: grid;
-    grid-template-columns: 50% 40%;
-  }
+  
 
   p, .places_info, #places_info_hall {
     margin: auto 0;
    
   }
 
-  #city_section {
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns: 30% 50%;
-  }
+  
 
-  #places_grid {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-  }
- 
-  #places_info_hall {
-    order: -1;
-  }
-
-  .places_container {
-    grid-template-columns: 60% 35%;
-  }
  
 }
