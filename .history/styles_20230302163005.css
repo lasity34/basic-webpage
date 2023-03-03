@@ -43,8 +43,6 @@ td,
 th {
   border: 1px solid black;
   padding: 0.3em;
-  width: 1%;
-  text-align: left;
 }
 
 /* historic places */
@@ -58,7 +56,6 @@ th {
 
 .places_info {
   padding-right: 1.5em;
-  text-align: center;
 }
 
 #places_info_hall {
@@ -72,46 +69,16 @@ th {
 
 /* max-width 767px */
 
+
 @media (max-width: 567px) {
   .places_container {
     display: flex;
     flex-direction: column;
     margin: 0.5em 0;
-    padding: 0 0.5em;
-    border-top: 1px black solid;
+    padding: 0;
   }
 
-  #places_info_hall {
-    order: -1;
-    padding-left: 0;
+ #places_info_hall {
+  order: -1;
   }
-
-  .places_info,
-  #places_info_hall {
-    margin-bottom: 2em;
-  }
-}
-
-@media (min-width: 1000px) {
-  main {
-    max-width: 80%;
-  }
-
-  #profile_section {
-    display: grid;
-    grid-template-columns: 50% 40%;
-  }
-
-  p, .places_info, #places_info_hall {
-    margin: auto 0;
-   
-  }
-
-  #city_section {
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns: 30% 50%;
-  }
-
- 
 }

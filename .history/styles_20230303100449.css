@@ -104,7 +104,7 @@ th {
 
   p, .places_info, #places_info_hall {
     margin: auto 0;
-   
+    background-color: blue;
   }
 
   #city_section {

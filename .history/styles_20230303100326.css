@@ -58,7 +58,6 @@ th {
 
 .places_info {
   padding-right: 1.5em;
-  text-align: center;
 }
 
 #places_info_hall {
@@ -102,9 +101,9 @@ th {
     grid-template-columns: 50% 40%;
   }
 
-  p, .places_info, #places_info_hall {
+  p, #places_info {
     margin: auto 0;
-   
+    background-color: blue;
   }
 
   #city_section {
