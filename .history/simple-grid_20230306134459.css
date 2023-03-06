@@ -42,9 +42,6 @@ h3 {
 
 h4 {
   font-size: 1.125rem;
-  text-align: left;
-  margin: 0;
-  text-decoration: underline;
 }
 
 h5 {
@@ -96,7 +93,7 @@ p {
 /* ==== GRID SYSTEM ==== */
 
 .container {
-  width: 95%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,7 +103,11 @@ p {
   width: 100%;
 }
 
-
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
 
 .col-1,
 .col-2,
@@ -184,7 +185,7 @@ p {
 @media only screen and (min-width: 33.75em) {
   /* 540px */
   .container {
-    width: 0%;
+    width: 80%;
   }
 }
 
@@ -246,7 +247,7 @@ p {
 @media only screen and (min-width: 60em) {
   /* 960px */
   .container {
-    width: 95%;
+    width: 75%;
     max-width: 60rem;
   }
 }
@@ -277,24 +278,20 @@ th {
   text-align: left;
 }
 
-
-
-.align {
+.places_container {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 1em;
+  text-align: center;
 }
 
-@media (max-width: 447px) {
-  
-
-  .align {
-    text-align: center;
+@media (max-width: 497px) {
+  .places_container {
     flex-direction: column;
-    align-content: center;
-  }
-
-  .row {
-    float: none;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    border-top: 1px black solid;
+    width: 90%;
   }
 
   #places_info_hall {
@@ -307,23 +304,13 @@ th {
     margin-bottom: 2em;
   }
 
-  .col-5-sm,
+  /* .col-5-sm,
   .col-6-sm {
     width: 100%;
-  }
- 
-
-h4 {
-  text-align: center;
-}
+  } */
 }
 
-@media (max-width: 800px) {
-  .history_container {
-    margin-bottom: 1em;
-  }
-
-  .col-6-sm {
-    margin: 0.5em
+@media (min-width: 800px) {
+  #profile_section {
   }
 }

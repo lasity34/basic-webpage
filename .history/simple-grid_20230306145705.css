@@ -284,13 +284,19 @@ th {
   align-items: center;
 }
 
-@media (max-width: 447px) {
+@media (max-width: 497px) {
+  .places_container {
   
+    flex-direction: column;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    border-top: 1px black solid;
+    width: 90%;
+  }
 
   .align {
     text-align: center;
     flex-direction: column;
-    align-content: center;
   }
 
   .row {
@@ -318,12 +324,8 @@ h4 {
 }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   .history_container {
     margin-bottom: 1em;
-  }
-
-  .col-6-sm {
-    margin: 0.5em
   }
 }

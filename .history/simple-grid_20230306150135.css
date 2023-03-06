@@ -290,7 +290,6 @@ th {
   .align {
     text-align: center;
     flex-direction: column;
-    align-content: center;
   }
 
   .row {
@@ -321,9 +320,5 @@ h4 {
 @media (max-width: 800px) {
   .history_container {
     margin-bottom: 1em;
-  }
-
-  .col-6-sm {
-    margin: 0.5em
   }
 }
