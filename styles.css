@@ -37,6 +37,7 @@ section {
 
 table {
   margin: auto;
+  
 }
 
 td,
@@ -50,7 +51,10 @@ th {
 /* historic places */
 
 .places_container {
- display: grid;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  padding: 0.5em;
+  justify-content: space-around;
 }
 
 .places_info {
@@ -63,7 +67,7 @@ th {
 }
 
 .places_container img {
-  width: 100%;
+  width: 50%;
   margin: auto;
 }
 
@@ -76,6 +80,10 @@ th {
     margin: 0.5em 0;
     padding: 0 0.5em;
     border-top: 1px black solid;
+  }
+
+  .places_container img {
+    width: 100%;
   }
 
   #places_info_hall {
