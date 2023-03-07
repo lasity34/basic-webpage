@@ -1,0 +1,223 @@
+/* global */
+
+* {
+  font-family: "Caveat", "Arial Narrow", Arial, sans-serif;
+  
+}
+
+body,
+html {
+  width: 100%;
+  margin: 0;
+  background: #77A1D3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+
+main {
+  max-width: 95%;
+  margin: 1rem auto;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  width: 60%;
+}
+
+section {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+
+
+/* Nav bar */
+
+
+
+
+/* profile */
+
+#profile_name {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#img_container {
+  text-align: center;
+}
+
+#profile_img {
+  width: 60%;
+}
+
+/* language */
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; 
+}
+
+td,
+th {
+  border: 2px solid black;
+  padding: 0.3em;
+  width: 1%;
+  text-align: left;
+}
+
+/* historic places */
+
+.places_container {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  padding: 0.5em;
+  justify-content: space-around;
+}
+
+.places_info {
+  padding-right: 1.5em;
+  text-align: center;
+}
+
+#places_info_hall {
+  padding-left: 1.5em;
+}
+
+.places_container img {
+  width: 100%;
+  margin: auto;
+}
+
+/* max-width 567px */
+
+@media (max-width: 567px) {
+  .places_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    border-top: 1px black solid;
+  }
+
+  .places_container img {
+    width: 100%;
+  }
+
+  #places_info_hall {
+    order: -1;
+    padding-left: 0;
+  }
+
+  .places_info,
+  #places_info_hall {
+    margin-bottom: 2em;
+  }
+
+
+  
+}
+
+/* min-width 710px */
+
+@media (min-width: 710px) {
+  main {
+    max-width: 95%;
+  }
+
+  #profile_section {
+    display: grid;
+    grid-template-columns: 50% 40%;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  p,
+  .places_info,
+  #places_info_hall {
+    margin: auto 0;
+  }
+
+  #city_container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 30% 50%;
+  }
+
+  #places_grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  #places_info_hall {
+    order: -1;
+  }
+
+  .places_container {
+    grid-template-columns: 60% 35%;
+  }
+}
+
+/* landing page */
+
+#landing_title {
+  text-align: center;
+color: rgb(111, 65, 8);
+font-size: 3rem;
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+#nav_landing {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav_landing ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 13vh;
+}
+
+a:hover {
+  background-color: black;
+  color: green;
+}
+
+a:hover {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  background-color: #f5dd90;
+  color: #586ba4;
+  width: 80%;
+  padding: 0.2em 0.5em;
+  margin: 1em 0.5em;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  height: 8vh;
+}
+
+#whole_body, html {
+  background-color: rgba(18, 16, 16, 1);
+  background-image: url(./images/landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+ 
+
+}

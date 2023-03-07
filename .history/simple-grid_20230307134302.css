@@ -378,7 +378,7 @@ th {
 @media (max-width: 719px) {
   #nav_profile ul {
     display: block;
-   
+    text-align: center;
     margin: 0 auto;
   }
 

@@ -372,14 +372,9 @@ th {
     text-align: center;
   }
   
-
-}
-
-@media (max-width: 719px) {
   #nav_profile ul {
     display: block;
-   
-    margin: 0 auto;
+    
   }
 
   #nav_profile li {
@@ -390,14 +385,9 @@ th {
 
   #nav_profile a{
     font-size: 1.1rem;
-    
-  }
-
-  #nav_profile h4 {
-    text-align: center;
   }
 }
- 
+
 /* max-width 800px */
 
 @media (max-width: 800px) {
