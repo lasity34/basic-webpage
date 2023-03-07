@@ -168,11 +168,12 @@ th {
 
 #landing_title {
   text-align: center;
-color: darkblue;
-font-size: 4rem;
+color: greenyellow
 }
 
-
+header {
+  border-bottom: 5px solid #48553C
+}
 
 #nav_landing {
   height: 80vh;
@@ -210,11 +211,8 @@ a {
 }
 
 #whole_body {
-  background-color: rgba(18, 16, 16, 1);
   background-image: url(./images/landing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
- 
-
 }
