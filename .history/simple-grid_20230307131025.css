@@ -258,7 +258,23 @@ p {
 
 /* Nav bar */
 
+/* #nav_profile {
+  text-align: left;
+  display: flex;
+} */
 
+#nav_profile ul {
+  display: flex;
+}
+
+#nav_profile h4 {
+  text-decoration: none;
+  align-self: center;
+}
+
+#nav_profile a {
+  width: 50%;
+}
 
 #landing_title {
   text-align: center;

@@ -25,10 +25,6 @@ li {
   list-style: none;
 }
 
-ul {
-  width: 60%;
-}
-
 section {
   margin-top: 4rem;
   text-align: center;
@@ -146,11 +142,7 @@ th {
   #nav_profile li {
     margin-top: 1em;
     text-align: center;
-  
-  }
 
-  #nav_profile a{
-    font-size: 1.1rem;
   }
   
 }
