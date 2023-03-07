@@ -34,31 +34,6 @@ section {
   text-align: center;
 }
 
-
-
-/* Nav bar */
-
-#nav_profile {
-  text-align: left;
-  display: flex;
-  
-}
-
-#nav_profile ul {
-  display: flex;
-  
-}
-
-#nav_profile h4 {
- text-decoration: none;
- align-self: center;
-}
-
-#nav_profile a {
-   width: 50%;
-  
-}
-
 /* profile */
 
 #profile_name {
@@ -138,20 +113,7 @@ th {
     margin-bottom: 2em;
   }
 
-  #nav_profile ul {
-    display: block;
-    
-  }
 
-  #nav_profile li {
-    margin-top: 1em;
-    text-align: center;
-  
-  }
-
-  #nav_profile a{
-    font-size: 1.1rem;
-  }
   
 }
 
