@@ -336,6 +336,17 @@ main {
   text-align: center;
 }
 
+table {
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 0.3em;
+  width: 1%;
+  text-align: left;
+}
 
 .align {
   display: flex;

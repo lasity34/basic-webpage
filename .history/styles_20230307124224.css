@@ -74,17 +74,9 @@ section {
 
 table {
   margin: auto;
-  border-collapse: collapse;
-  border-spacing: 0; 
 }
 
-td,
-th {
-  border: 2px solid black;
-  padding: 0.3em;
-  width: 1%;
-  text-align: left;
-}
+
 
 /* historic places */
 
