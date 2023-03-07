@@ -341,8 +341,7 @@ main {
 
 .align {
   display: flex;
- 
- align-items: center;
+  align-items: center;
 }
 
 .flex {
@@ -445,11 +444,4 @@ th {
     display: flex;
     align-items: center;
   }
-
-  .align {
-    height: 35vh;
-    align-items: flex-start;
-  }
-
-
 }

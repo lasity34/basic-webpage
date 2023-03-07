@@ -125,10 +125,6 @@ p {
   min-height: 0.125rem;
 }
 
-.history_height {
-  height: 30vh;
-}
-
 .col-1,
 .col-2,
 .col-3,
@@ -341,8 +337,7 @@ main {
 
 .align {
   display: flex;
- 
- align-items: center;
+  align-items: center;
 }
 
 .flex {
@@ -445,11 +440,4 @@ th {
     display: flex;
     align-items: center;
   }
-
-  .align {
-    height: 35vh;
-    align-items: flex-start;
-  }
-
-
 }

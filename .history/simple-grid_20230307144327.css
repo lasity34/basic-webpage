@@ -121,12 +121,8 @@ p {
 
 .row [class^="col"] {
   float: left;
-  margin: 0.5em 2%;
+  margin-left: 0.5em;
   min-height: 0.125rem;
-}
-
-.history_height {
-  height: 30vh;
 }
 
 .col-1,
@@ -341,8 +337,7 @@ main {
 
 .align {
   display: flex;
- 
- align-items: center;
+  align-items: center;
 }
 
 .flex {
@@ -445,11 +440,4 @@ th {
     display: flex;
     align-items: center;
   }
-
-  .align {
-    height: 35vh;
-    align-items: flex-start;
-  }
-
-
 }

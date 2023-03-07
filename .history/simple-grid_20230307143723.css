@@ -121,12 +121,8 @@ p {
 
 .row [class^="col"] {
   float: left;
-  margin: 0.5em 2%;
-  min-height: 0.125rem;
-}
 
-.history_height {
-  height: 30vh;
+  min-height: 0.125rem;
 }
 
 .col-1,
@@ -274,10 +270,8 @@ p {
 
 #city_container p {
   text-align: left;
- padding: 0.5em;
+ 
 }
-
-
 
 #landing_title {
   text-align: center;
@@ -341,8 +335,7 @@ main {
 
 .align {
   display: flex;
- 
- align-items: center;
+  align-items: center;
 }
 
 .flex {
@@ -445,11 +438,4 @@ th {
     display: flex;
     align-items: center;
   }
-
-  .align {
-    height: 35vh;
-    align-items: flex-start;
-  }
-
-
 }

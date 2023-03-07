@@ -16,19 +16,10 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
-  background: #77a1d3; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #e684ae,
-    #79cbca,
-    #77a1d3
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #e684ae,
-    #79cbca,
-    #77a1d3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #77A1D3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 /* ROOT FONT STYLES */
@@ -121,12 +112,8 @@ p {
 
 .row [class^="col"] {
   float: left;
-  margin: 0.5em 2%;
+  margin: 0.5rem 1%;
   min-height: 0.125rem;
-}
-
-.history_height {
-  height: 30vh;
 }
 
 .col-1,
@@ -274,10 +261,9 @@ p {
 
 #city_container p {
   text-align: left;
- padding: 0.5em;
+  margin-left: 4em;
+  
 }
-
-
 
 #landing_title {
   text-align: center;
@@ -339,10 +325,10 @@ main {
   text-align: center;
 }
 
+
 .align {
   display: flex;
- 
- align-items: center;
+  align-items: center;
 }
 
 .flex {
@@ -352,7 +338,7 @@ main {
 table {
   margin: auto;
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 0; 
 }
 
 td,
@@ -390,29 +376,33 @@ th {
   h4 {
     text-align: center;
   }
+  
+
 }
 
 @media (max-width: 719px) {
   #nav_profile ul {
     display: block;
-
+   
     margin: 0 auto;
   }
 
   #nav_profile li {
     margin-top: 1em;
     text-align: center;
+  
   }
 
-  #nav_profile a {
+  #nav_profile a{
     font-size: 1.1rem;
+    
   }
 
   #nav_profile h4 {
     text-align: center;
   }
 }
-
+ 
 /* max-width 800px */
 
 @media (max-width: 800px) {
@@ -423,6 +413,10 @@ th {
   .col-6-sm {
     margin: 0.5em;
   }
+
+
+
+
 }
 
 @media (min-width: 720px) {
@@ -446,10 +440,6 @@ th {
     align-items: center;
   }
 
-  .align {
-    height: 35vh;
-    align-items: flex-start;
-  }
 
-
+  
 }

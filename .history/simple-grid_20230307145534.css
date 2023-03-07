@@ -445,11 +445,4 @@ th {
     display: flex;
     align-items: center;
   }
-
-  .align {
-    height: 35vh;
-    align-items: flex-start;
-  }
-
-
 }

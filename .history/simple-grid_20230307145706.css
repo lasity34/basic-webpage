@@ -447,9 +447,11 @@ th {
   }
 
   .align {
-    height: 35vh;
+    height: 60vh;
     align-items: flex-start;
   }
 
-
+  .align img {
+    align-self: center;
+  }
 }
