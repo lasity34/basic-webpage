@@ -2,18 +2,11 @@
 
 * {
   font-family: "Caveat", "Arial Narrow", Arial, sans-serif;
-  
-}
-
-body,
-html {
-  width: 100%;
-  margin: 0;
 }
 
 main {
   max-width: 95%;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 li {
@@ -23,31 +16,6 @@ li {
 section {
   margin-top: 4rem;
   text-align: center;
-}
-
-
-
-/* Nav bar */
-
-#nav_profile {
-  text-align: left;
-  display: flex;
-  
-}
-
-#nav_profile ul {
-  display: flex;
-  
-}
-
-#nav_profile h4 {
- text-decoration: none;
- align-self: center;
-}
-
-#nav_profile a {
-   width: 50%;
-  
 }
 
 /* profile */
@@ -69,6 +37,7 @@ section {
 
 table {
   margin: auto;
+  
 }
 
 td,
@@ -98,11 +67,11 @@ th {
 }
 
 .places_container img {
-  width: 100%;
+  width: 50%;
   margin: auto;
 }
 
-/* max-width 567px */
+/* max-width 767px */
 
 @media (max-width: 567px) {
   .places_container {
@@ -138,10 +107,9 @@ th {
     grid-template-columns: 50% 40%;
   }
 
-  p,
-  .places_info,
-  #places_info_hall {
+  p, .places_info, #places_info_hall {
     margin: auto 0;
+   
   }
 
   #city_section {
@@ -154,7 +122,7 @@ th {
     display: grid;
     grid-template-columns: 33% 33% 33%;
   }
-
+ 
   #places_info_hall {
     order: -1;
   }
@@ -162,54 +130,11 @@ th {
   .places_container {
     grid-template-columns: 60% 35%;
   }
+ 
 }
 
 /* landing page */
 
 #landing_title {
   text-align: center;
-color: #48553C
-}
-
-header {
-  border-bottom: 5px solid #48553C
-}
-
-#nav_landing {
-  height: 80vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#nav_landing ul {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-  height: 13vh;
-}
-
-a:hover {
-  background-color: black;
-  color: green;
-}
-
-a:hover {
-  color: green;
-}
-
-a {
-  text-decoration: none;
-  background-color: #f5dd90;
-  color: #586ba4;
-  width: 80%;
-  padding: 0.2em 0.5em;
-  margin: 1em 0.5em;
-  font-size: 1.5rem;
-  border-radius: 10px;
-  height: 8vh;
-}
-
-#whole_body {
-  background-image: url(./images/landing.jpg);
 }

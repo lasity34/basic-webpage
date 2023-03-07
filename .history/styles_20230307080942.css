@@ -2,13 +2,6 @@
 
 * {
   font-family: "Caveat", "Arial Narrow", Arial, sans-serif;
-  
-}
-
-body,
-html {
-  width: 100%;
-  margin: 0;
 }
 
 main {
@@ -25,7 +18,9 @@ section {
   text-align: center;
 }
 
-
+header {
+  background-color: #c1df1f
+}
 
 /* Nav bar */
 
@@ -168,11 +163,10 @@ th {
 
 #landing_title {
   text-align: center;
-color: #48553C
 }
 
 header {
-  border-bottom: 5px solid #48553C
+  border-bottom: 5px solid black;
 }
 
 #nav_landing {
@@ -200,16 +194,13 @@ a:hover {
 
 a {
   text-decoration: none;
-  background-color: #f5dd90;
-  color: #586ba4;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
   width: 80%;
   padding: 0.2em 0.5em;
   margin: 1em 0.5em;
   font-size: 1.5rem;
   border-radius: 10px;
   height: 8vh;
-}
-
-#whole_body {
-  background-image: url(./images/landing.jpg);
 }

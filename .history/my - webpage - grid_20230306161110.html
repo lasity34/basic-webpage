@@ -1,40 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="simple-grid.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" type="text/css" href="simple-grid.css" />
 
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic website</title>
+    <title>Bjorns Profile Reponsive</title>
   </head>
   <body>
     <main>
-      <header>
-        <nav id="nav_profile">
-          <h4>Basic Webpage framework</h4>
-          <ul>
-            <li><a href="./index.html">home</a></li>
-            <li><a href="./my - webpage - grid.html">Webpage with simple grid</a></li>
-          </ul>
-        </nav>
-      </header>
       <section id="profile_section">
-        <h1 id="profile_name">Bjorn Worrall</h1>
-        <div id="img_container">
-          <img
-            id="profile_img"
-            src="../images/profile.jpg"
-            alt="A picture of me with table Mountain at the back"
-          />
-        </div>
+        <h1 id="profile_name col-3">Bjorn Worrall</h1>
+        <img
+          class="col-4-sm"
+          id="profile_img"
+          src="../images/profile.jpg"
+          alt="A picture of me with table Mountain at the back"
+        />
       </section>
       <section id="city_section">
         <div id="city_container">
@@ -83,37 +73,26 @@
           </tr>
         </table>
       </section>
-      <section>
+      <section class="container">
         <h1>Historic places in my city - Cape Town</h1>
-        <div id="places_grid">
-          <div class="places_container">
-            <div class="places_info">
-              <h2>Church Square</h2>
-              <p>
-                The name Spin Street comes from a silk–spinning factory between
-                Plein Street and Parliament Street.
-              </p>
 
-              <!-- <li>
-                  The name Spin Street comes from a silk–spinning factory
-                  between Plein Street and Parliament Street.
-                </li>
-                <li>
-                  A plaque on a traffic island on Spin Street commemorates the
-                  slave market once using the square.
-                </li>
-                <li>
-                  it houses a cultural and historical museum. In 1961, the
-                  square was declared a heritage site.
-                </li> -->
-            </div>
-            <img src="../images/church_square.jpg" />
+        <div class="row">
+          <h4>Church Square</h4>
+          <div class="align col-4">
+            <p class="col-6-sm">
+              The name Spin Street comes from a silk–spinning factory between
+              Plein Street and Parliament Street. it houses a cultural and
+              historical museum. In 1961, the square was declared a heritage
+              site.
+            </p>
+
+            <img class="col-6-sm" src="../images/church_square.jpg" />
           </div>
-          <div class="places_container">
-            <img src="../images/city_hall.jpg" />
-            <div id="places_info_hall">
-              <h2>City Hall</h2>
 
+          <h4>City Hall</h4>
+          <div class="align col-4">
+            <img class="col-6-sm" src="../images/city_hall.jpg" />
+            <div class="col-6-sm" id="places_info_hall">
               <p>
                 On February 11, 1990, only hours after his release from prison,
                 Nelson Mandela made his first public speech. Was built in 1905
@@ -121,28 +100,18 @@
               </p>
             </div>
           </div>
-          <div class="places_container">
-            <div class="places_info">
-              <h2>District 6 Museum</h2>
-              <p>
+          <div class="col-4">
+            <h4>District 6 Museum</h4>
+            <div class="align">
+              <p class="col-6-sm">
                 Serves as a memorial to the forced movement of 60,000
                 inhabitants of various races in District Six during Apartheid in
-                the 1970s.
+                the 1970s. One former resident is jazz musician, Abdullah
+                Ibrahim, better known by the name Dollar Brand. District Six
+                museum was founded in 1994.
               </p>
-              <!-- <ul>
-                <li>
-                  Serves as a memorial to the forced movement of 60,000
-                  inhabitants of various races in District Six during Apartheid
-                  in the 1970s.
-                </li>
-                <li>
-                  One former resident is jazz musician, Abdullah Ibrahim, better
-                  known by the name Dollar Brand.
-                </li>
-                <li>District Six museum was founded in 1994.</li>
-              </ul> -->
+              <img class="col-6-sm" src="../images/district_6.jpg" />
             </div>
-            <img src="../images/district_6.jpg" />
           </div>
         </div>
       </section>

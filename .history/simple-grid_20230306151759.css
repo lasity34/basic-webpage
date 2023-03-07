@@ -96,7 +96,7 @@ p {
 /* ==== GRID SYSTEM ==== */
 
 .container {
-  width: 100%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,11 +106,7 @@ p {
   width: 100%;
 }
 
-.row [class^="col"] {
-  float: left;
-  margin: 0.5rem 1%;
-  min-height: 0.125rem;
-}
+
 
 .col-1,
 .col-2,
@@ -185,6 +181,13 @@ p {
   display: none;
 }
 
+@media only screen and (min-width: 33.75em) {
+  /* 540px */
+  .container {
+    width: 0%;
+  }
+}
+
 @media only screen and (min-width: 45em) {
   /* 720px */
   .col-1 {
@@ -244,82 +247,13 @@ p {
   /* 960px */
   .container {
     width: 95%;
-    max-width: 90rem;
+    max-width: 60rem;
   }
 }
 
 * {
   font-family: "Caveat", "Arial Narrow", Arial, sans-serif;
 }
-
-/* Nav bar */
-
-#nav_profile {
-  text-align: left;
-  display: flex;
-}
-
-#nav_profile ul {
-  display: flex;
-}
-
-#nav_profile h4 {
-  text-decoration: none;
-  align-self: center;
-}
-
-#nav_profile a {
-  width: 50%;
-}
-
-#landing_title {
-  text-align: center;
-}
-
-header {
-  border-bottom: 5px solid black;
-  padding: 1em;
-}
-
-#nav_landing {
-  height: 80vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#nav_landing ul {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-  height: 13vh;
-}
-
-a:hover {
-  background-color: black;
-  color: green;
-}
-
-a:hover {
-  color: green;
-}
-
-a {
-  background-color: #f5dd90;
-  color: #586ba4;
-  width: 80%;
-  padding: 0.2em 0.5em;
-  margin: 1em 0.5em;
-  font-size: 1.5rem;
-  border-radius: 10px;
-  height: 8vh;
-}
-
-li {
-  list-style: none;
-}
-
-/* global */
 
 main {
   max-width: 95%;
@@ -343,20 +277,24 @@ th {
   text-align: left;
 }
 
+
+
 .align {
   display: flex;
   align-items: center;
 }
 
-.flex {
-  display: flex;
-}
-
 @media (max-width: 447px) {
+  
+
   .align {
     text-align: center;
     flex-direction: column;
     align-content: center;
+  }
+
+  .row {
+    float: none;
   }
 
   #places_info_hall {
@@ -373,10 +311,11 @@ th {
   .col-6-sm {
     width: 100%;
   }
+ 
 
-  h4 {
-    text-align: center;
-  }
+h4 {
+  text-align: center;
+}
 }
 
 @media (max-width: 800px) {
@@ -385,12 +324,10 @@ th {
   }
 
   .col-6-sm {
-    margin: 0.5em;
+    margin: 0.5em
   }
 }
 
-@media (min-width: 720px) {
-  #places_info_hall {
-    order: -1;
-  }
+@media (min-width: 800px) {
+
 }

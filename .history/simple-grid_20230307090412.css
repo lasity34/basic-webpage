@@ -110,7 +110,10 @@ p {
   float: left;
   margin: 0.5rem 1%;
   min-height: 0.125rem;
+  
 }
+
+
 
 .col-1,
 .col-2,
@@ -185,6 +188,8 @@ p {
   display: none;
 }
 
+
+
 @media only screen and (min-width: 45em) {
   /* 720px */
   .col-1 {
@@ -257,19 +262,22 @@ p {
 #nav_profile {
   text-align: left;
   display: flex;
+  
 }
 
 #nav_profile ul {
   display: flex;
+  
 }
 
 #nav_profile h4 {
-  text-decoration: none;
-  align-self: center;
+ text-decoration: none;
+ align-self: center;
 }
 
 #nav_profile a {
-  width: 50%;
+   width: 50%;
+  
 }
 
 #landing_title {
@@ -305,8 +313,10 @@ a:hover {
 }
 
 a {
-  background-color: #f5dd90;
-  color: #586ba4;
+  
+  background-color: #F5DD90;
+  color: #586BA4;
+  
   width: 80%;
   padding: 0.2em 0.5em;
   margin: 1em 0.5em;
@@ -316,7 +326,7 @@ a {
 }
 
 li {
-  list-style: none;
+ list-style: none;
 }
 
 /* global */
@@ -343,6 +353,8 @@ th {
   text-align: left;
 }
 
+
+
 .align {
   display: flex;
   align-items: center;
@@ -352,12 +364,18 @@ th {
   display: flex;
 }
 
+
+
 @media (max-width: 447px) {
+  
+
   .align {
     text-align: center;
     flex-direction: column;
     align-content: center;
   }
+
+  
 
   #places_info_hall {
     order: -1;
@@ -373,10 +391,11 @@ th {
   .col-6-sm {
     width: 100%;
   }
+ 
 
-  h4 {
-    text-align: center;
-  }
+h4 {
+  text-align: center;
+}
 }
 
 @media (max-width: 800px) {
@@ -385,7 +404,7 @@ th {
   }
 
   .col-6-sm {
-    margin: 0.5em;
+    margin: 0.5em
   }
 }
 
