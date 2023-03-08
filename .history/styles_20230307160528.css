@@ -8,12 +8,11 @@
 body,
 html {
   width: 100%;
-  height: 100%;
   margin: 0;
   background: #77A1D3;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 0;
+  
 
 }
 
@@ -114,32 +113,13 @@ th {
     margin-bottom: 2em;
   }
 
+
   
-}
-
-@media (max-width: 719px) {
-  #nav_profile ul {
-    display: block;
-    margin: 0 auto;
-  }
-
-  #nav_profile li {
-    margin-top: 1em;
-    text-align: center;
-  }
-
-  #nav_profile a {
-    font-size: 1.1rem;
-  }
-
-  #nav_profile h4 {
-    text-align: center;
-  }
 }
 
 /* min-width 710px */
 
-@media (min-width: 1010px) {
+@media (min-width: 810px) {
   main {
     max-width: 95%;
   }

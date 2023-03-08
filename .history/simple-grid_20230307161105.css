@@ -1,0 +1,455 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+/* UNIVERSAL */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e684ae,
+    #79cbca,
+    #77a1d3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e684ae,
+    #79cbca,
+    #77a1d3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* ROOT FONT STYLES */
+
+/* * {
+  font-family: "Lato", Helvetica, sans-serif;
+  
+  line-height: 1.5;
+} */
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+  text-align: left;
+  margin: 0;
+  text-decoration: underline;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5em 2%;
+  min-height: 0.125rem;
+}
+
+.history_height {
+  height: 30vh;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 45em) {
+  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  /* 960px */
+  .container {
+    width: 95%;
+    max-width: 90rem;
+  }
+}
+
+* {
+  font-family: "Caveat", "Arial Narrow", Arial, sans-serif;
+  color: #333447;
+}
+
+/* Nav bar */
+
+#city_container p {
+  text-align: left;
+ padding: 0.5em;
+}
+
+
+
+#landing_title {
+  text-align: center;
+}
+
+header {
+  border-bottom: 5px solid black;
+  padding: 1em;
+}
+
+#nav_landing {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav_landing ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 13vh;
+}
+
+a:hover {
+  background-color: black;
+  color: green;
+}
+
+a:hover {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  background-color: #f5dd90;
+  color: #586ba4;
+  width: 80%;
+  padding: 0.2em 0.5em;
+  margin: 1em 0.5em;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  height: 8vh;
+}
+
+li {
+  list-style: none;
+}
+
+/* global */
+
+main {
+  max-width: 95%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#profile_section {
+  text-align: center;
+}
+
+.align {
+  display: flex;
+ 
+ align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  border: 2px solid black;
+  padding: 0.3em;
+  width: 1%;
+  text-align: left;
+}
+
+/* 447px */
+
+@media (max-width: 547px) {
+  .align {
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #places_info_hall {
+    order: -1;
+    padding-left: 0;
+  }
+
+  .places_info,
+  #places_info_hall {
+    margin-bottom: 2em;
+  }
+
+  .col-5-sm,
+  .col-6-sm {
+    width: 100%;
+  }
+
+  h4 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 719px) {
+  #nav_profile ul {
+    display: block;
+
+    margin: 0 auto;
+  }
+
+  #nav_profile li {
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  #nav_profile a {
+    font-size: 1.1rem;
+  }
+
+  #nav_profile h4 {
+    text-align: center;
+  }
+}
+
+/* max-width 800px */
+
+@media (max-width: 800px) {
+  .history_container {
+    margin-bottom: 1em;
+  }
+
+  .col-6-sm {
+    margin: 0.5em;
+  }
+}
+
+@media (min-width: 850px) {
+  #places_info_hall {
+    order: -1;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  #profile_name {
+    text-align: center;
+  }
+  #nav_profile ul {
+    display: flex;
+  }
+
+  #nav_profile {
+    display: flex;
+    align-items: center;
+  }
+
+  .align {
+    height: 35vh;
+    align-items: flex-start;
+  }
+
+
+}
