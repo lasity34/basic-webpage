@@ -66,20 +66,6 @@ section {
   text-align: center;
 }
 
-/* Nav Bar */
-
-
-
-#nav_profile ul,
-#nav_profile {
-  display: flex;
-  align-items: center;
-
-}
-
-
-
-
 /* profile */
 
 #profile_name {
@@ -135,6 +121,10 @@ th {
   margin: auto;
 }
 
+#nav_profile ul,
+#nav_profile {
+  display: flex;
+}
 
 /* max-width 567px */
 

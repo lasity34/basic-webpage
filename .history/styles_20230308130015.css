@@ -43,10 +43,10 @@ a {
   background-color: #f5dd90;
   color: #586ba4;
   width: 100%;
-  padding: 0.2em 1em;
+  padding: 0.2em 0.5em;
   margin: 1em 0.5em;
   border-radius: 10px;
-  
+  font-size: 2rem;
 }
 
 p {
@@ -65,20 +65,6 @@ section {
   margin-top: 4rem;
   text-align: center;
 }
-
-/* Nav Bar */
-
-
-
-#nav_profile ul,
-#nav_profile {
-  display: flex;
-  align-items: center;
-
-}
-
-
-
 
 /* profile */
 
@@ -135,6 +121,10 @@ th {
   margin: auto;
 }
 
+#nav_profile ul,
+#nav_profile {
+  display: flex;
+}
 
 /* max-width 567px */
 
@@ -178,7 +168,7 @@ th {
   }
 
   #nav_profile a {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   #nav_profile h4 {

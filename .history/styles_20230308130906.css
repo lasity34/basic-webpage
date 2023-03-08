@@ -73,11 +73,13 @@ section {
 #nav_profile ul,
 #nav_profile {
   display: flex;
-  align-items: center;
-
+  align-content: center;
 }
 
-
+#nav-profile ul{
+  height: 8vh;
+  background-color: #586ba4;
+}
 
 
 /* profile */

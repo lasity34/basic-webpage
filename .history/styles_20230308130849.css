@@ -68,16 +68,15 @@ section {
 
 /* Nav Bar */
 
-
+#nav-profile ul{
+  height: 8vh;
+}
 
 #nav_profile ul,
 #nav_profile {
   display: flex;
-  align-items: center;
-
+  align-content: center;
 }
-
-
 
 
 /* profile */

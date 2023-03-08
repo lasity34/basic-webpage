@@ -2,6 +2,7 @@
 
 * {
   font-family: "Caveat", "Arial Narrow", Arial, sans-serif;
+  
 }
 
 body,
@@ -9,44 +10,26 @@ html {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: #77a1d3; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #e684ae,
-    #79cbca,
-    #77a1d3
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #e684ae,
-    #79cbca,
-    #77a1d3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #77A1D3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 0;
+
 }
+
+
 
 main {
   max-width: 95%;
   margin: 1rem auto;
 }
 
-ul {
-  width: 60%;
-}
-
 li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  background-color: #f5dd90;
-  color: #586ba4;
-  width: 100%;
-  padding: 0.2em 1em;
-  margin: 1em 0.5em;
-  border-radius: 10px;
-  
+ul {
+  width: 60%;
 }
 
 p {
@@ -65,20 +48,6 @@ section {
   margin-top: 4rem;
   text-align: center;
 }
-
-/* Nav Bar */
-
-
-
-#nav_profile ul,
-#nav_profile {
-  display: flex;
-  align-items: center;
-
-}
-
-
-
 
 /* profile */
 
@@ -100,7 +69,7 @@ section {
 table {
   margin: auto;
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 0; 
 }
 
 td,
@@ -135,6 +104,9 @@ th {
   margin: auto;
 }
 
+#nav_profile ul, #nav_profile {
+  display: flex;
+}
 
 /* max-width 567px */
 
@@ -148,7 +120,7 @@ th {
   }
 
   .places_container img {
-    width: 65%;
+    width: 70%;
   }
 
   #places_info_hall {
@@ -160,6 +132,8 @@ th {
   #places_info_hall {
     margin-bottom: 2em;
   }
+
+  
 }
 
 @media (max-width: 719px) {
@@ -178,13 +152,15 @@ th {
   }
 
   #nav_profile a {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   #nav_profile h4 {
     text-align: center;
   }
 }
+
+
 
 /* min-width 1010px */
 
@@ -232,10 +208,12 @@ th {
 
 #landing_title {
   text-align: center;
-  color: rgb(111, 65, 8);
-  font-size: 3rem;
-  background-color: rgba(255, 255, 255, 0.2);
+color: rgb(111, 65, 8);
+font-size: 3rem;
+background-color: rgba(255, 255, 255, 0.2);
 }
+
+
 
 #nav_landing {
   height: 80vh;
@@ -260,11 +238,24 @@ a:hover {
   color: green;
 }
 
+a {
+  text-decoration: none;
+  background-color: #f5dd90;
+  color: #586ba4;
+  width: 80%;
+  padding: 0.2em 0.5em;
+  margin: 1em 0.5em;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  height: 8vh;
+}
+
 #whole_body {
   background-color: rgba(18, 16, 16, 1);
   background-image: url(./images/landing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  margin: 0;
+ margin: 0;
+
 }
