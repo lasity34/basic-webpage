@@ -82,9 +82,7 @@ section {
 
 }
 
-#nav_profile a {
-  font-size: 1.5rem;
-}
+
 
 
 /* profile */
@@ -189,7 +187,9 @@ th {
     text-align: center;
   }
 
- 
+  #nav_profile a {
+    font-size: 1.5rem;
+  }
 
   #nav_profile h4 {
     text-align: center;
