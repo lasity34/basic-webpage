@@ -122,10 +122,6 @@ th {
 }
 
 @media (max-width: 719px) {
-  #nav_profile {
-    display: block;
-  }
-
   #nav_profile ul {
     display: block;
     margin: 0 auto;

@@ -89,10 +89,6 @@ th {
   margin: auto;
 }
 
-#nav_profile ul, #nav_profile {
-  display: flex;
-}
-
 /* max-width 567px */
 
 @media (max-width: 567px) {
@@ -122,10 +118,6 @@ th {
 }
 
 @media (max-width: 719px) {
-  #nav_profile {
-    display: block;
-  }
-
   #nav_profile ul {
     display: block;
     margin: 0 auto;
@@ -145,7 +137,11 @@ th {
   }
 }
 
-
+@media (max-width: 1009px) {
+  #nav_profile ul, #nav_profile {
+    display: flex;
+  }
+}
 
 /* min-width 710px */
 
