@@ -17,7 +17,9 @@ html {
 
 }
 
-
+p {
+  font-size: 1.2rem;
+}
 
 main {
   max-width: 95%;
@@ -30,14 +32,6 @@ li {
 
 ul {
   width: 60%;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
-h2 {
-  text-align: center;
 }
 
 section {
@@ -74,7 +68,6 @@ th {
   padding: 0.3em;
   width: 1%;
   text-align: left;
-  font-size: 1.2rem;
 }
 
 /* historic places */

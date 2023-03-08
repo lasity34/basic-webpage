@@ -284,7 +284,7 @@ header {
   padding: 1em;
 }
 
-#nav_landing {
+/* #nav_landing {
   height: 80vh;
   display: flex;
   justify-content: space-around;
@@ -296,7 +296,7 @@ header {
   justify-content: space-around;
   align-content: center;
   height: 13vh;
-}
+} */
 
 a:hover {
   background-color: black;
