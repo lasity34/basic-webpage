@@ -32,11 +32,7 @@ main {
 
 header {
   border-bottom: 1px solid black;
-  padding-bottom: 1em;
-}
-
-h1 {
-  margin: 0;
+  padding-bottom: 2em;
 }
 
 ul {
@@ -83,7 +79,7 @@ section {
 #nav_profile {
   display: flex;
   align-items: center;
- 
+
 }
 
 #nav_profile a {
@@ -189,7 +185,9 @@ th {
     font-size: 1.2rem;
   }
 
- 
+  #nav_landing ul, #nav_landing {
+    display: block;
+  }
 }
 
 @media (max-width: 719px) {
@@ -211,15 +209,6 @@ th {
 
   #nav_profile h4 {
     text-align: center;
-  }
-
-  #nav_landing ul, #nav_landing {
-    flex-direction: column;
-   
-  }
-
-  #nav_landing li {
-    margin-bottom: 2em;
   }
 }
 
@@ -303,10 +292,7 @@ th {
   justify-content: space-around;
   align-content: center;
   height: 13vh;
-  font-size: 1.5rem;
-  font-weight: 600;
 }
-
 
 a:hover {
   background-color: black;

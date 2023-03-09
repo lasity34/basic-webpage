@@ -213,14 +213,7 @@ th {
     text-align: center;
   }
 
-  #nav_landing ul, #nav_landing {
-    flex-direction: column;
-   
-  }
-
-  #nav_landing li {
-    margin-bottom: 2em;
-  }
+  
 }
 
 /* min-width 1010px */
@@ -280,6 +273,15 @@ th {
   .places_container {
     grid-template-columns: 60% 35%;
   }
+
+  #nav_landing ul, #nav_landing {
+    flex-direction: column;
+   
+  }
+
+  #nav_landing li {
+    margin-bottom: 2em;
+  }
 }
 
 /* landing page */
@@ -307,6 +309,9 @@ th {
   font-weight: 600;
 }
 
+#nav_landing li {
+
+}
 
 a:hover {
   background-color: black;

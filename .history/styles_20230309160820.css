@@ -189,7 +189,14 @@ th {
     font-size: 1.2rem;
   }
 
- 
+  #nav_landing ul, #nav_landing {
+    flex-direction: column;
+   
+  }
+
+  #nav_landing li {
+    margin-bottom: 2em;
+  }
 }
 
 @media (max-width: 719px) {
@@ -211,15 +218,6 @@ th {
 
   #nav_profile h4 {
     text-align: center;
-  }
-
-  #nav_landing ul, #nav_landing {
-    flex-direction: column;
-   
-  }
-
-  #nav_landing li {
-    margin-bottom: 2em;
   }
 }
 
@@ -303,10 +301,9 @@ th {
   justify-content: space-around;
   align-content: center;
   height: 13vh;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
 }
-
 
 a:hover {
   background-color: black;
