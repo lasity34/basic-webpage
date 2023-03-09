@@ -156,7 +156,7 @@ th {
 @media (max-width: 567px) {
 
   #profile_name {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .places_container {
@@ -227,7 +227,6 @@ th {
   #profile_section {
     display: grid;
     grid-template-columns: 50% 45%;
-    justify-content: center;
     align-items: center;
     height: 40vh;
   }
