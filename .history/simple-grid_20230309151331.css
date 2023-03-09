@@ -418,9 +418,10 @@ th {
 }
 
 
+
 /* max-width 800px */
 
-@media (max-width: 949px) {
+@media (max-width: 800px) {
   .history_container {
     margin-bottom: 1em;
   }
@@ -428,31 +429,9 @@ th {
   .col-6-sm {
     margin: 0.5em;
   }
-
-  #nav_profile ul {
-    display: block;
-    margin: 0 auto;
-  }
-
-  #nav_profile li {
-    margin-top: 1em;
-    text-align: center;
-  }
-
-  #nav_profile a {
-    font-size: 1.4rem;
-  }
-
-  #nav_profile h4 {
-    text-align: center;
-  }
 }
 
 @media (min-width: 950px) {
-  h3 {
-    font-size: 1.6rem;
-  }
-  
   #places_info_hall {
     order: -1;
    

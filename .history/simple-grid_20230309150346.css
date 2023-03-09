@@ -64,7 +64,7 @@ h6 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 200;
   line-height: 1.8;
 }
@@ -417,18 +417,7 @@ th {
   }
 }
 
-
-/* max-width 800px */
-
-@media (max-width: 949px) {
-  .history_container {
-    margin-bottom: 1em;
-  }
-
-  .col-6-sm {
-    margin: 0.5em;
-  }
-
+@media (max-width: 719px) {
   #nav_profile ul {
     display: block;
     margin: 0 auto;
@@ -448,18 +437,21 @@ th {
   }
 }
 
-@media (min-width: 950px) {
-  h3 {
-    font-size: 1.6rem;
-  }
-  
-  #places_info_hall {
-    order: -1;
-   
+/* max-width 800px */
+
+@media (max-width: 800px) {
+  .history_container {
+    margin-bottom: 1em;
   }
 
-  #places_info_hall p {
-    margin: 0;
+  .col-6-sm {
+    margin: 0.5em;
+  }
+}
+
+@media (min-width: 950px) {
+  #places_info_hall {
+    order: -1;
   }
 
   #profile_name {
@@ -493,7 +485,8 @@ th {
     align-items: flex-start;
   }
 
-  .align p{
-   line-height: 1.1;
+  .align  {
+    background-color: #f5dd90;
+    margin: 0;
   }
 }

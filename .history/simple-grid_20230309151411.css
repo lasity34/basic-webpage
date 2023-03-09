@@ -420,7 +420,7 @@ th {
 
 /* max-width 800px */
 
-@media (max-width: 949px) {
+@media (max-width: 800px) {
   .history_container {
     margin-bottom: 1em;
   }
@@ -449,10 +449,6 @@ th {
 }
 
 @media (min-width: 950px) {
-  h3 {
-    font-size: 1.6rem;
-  }
-  
   #places_info_hall {
     order: -1;
    

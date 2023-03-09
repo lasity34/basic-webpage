@@ -417,18 +417,7 @@ th {
   }
 }
 
-
-/* max-width 800px */
-
-@media (max-width: 949px) {
-  .history_container {
-    margin-bottom: 1em;
-  }
-
-  .col-6-sm {
-    margin: 0.5em;
-  }
-
+@media (max-width: 800px) {
   #nav_profile ul {
     display: block;
     margin: 0 auto;
@@ -448,11 +437,19 @@ th {
   }
 }
 
-@media (min-width: 950px) {
-  h3 {
-    font-size: 1.6rem;
+/* max-width 800px */
+
+@media (max-width: 800px) {
+  .history_container {
+    margin-bottom: 1em;
   }
-  
+
+  .col-6-sm {
+    margin: 0.5em;
+  }
+}
+
+@media (min-width: 950px) {
   #places_info_hall {
     order: -1;
    
